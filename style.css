@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  color: #606060;
+  background-color: #f1f4f9;
+}
+
+a,
+span {
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* ****************************UPER-TIGHT********************** */
+.uper-right {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.uper-right .uper-right-head {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.uper-right .uper-right-head .logo-input {
+  padding-top: 10px;
+  position: relative;
+}
+.uper-right .uper-right-head .logo-input input {
+  position: relative;
+  border-radius: 5px;
+  height: 32px;
+  padding-left: 50px;
+  width: 200px;
+  border: 1px solid #a49999;
+  color: #a49999;
+  font-size: 12px;
+}
+.uper-right .uper-right-head .mag-icon {
+  position: absolute;
+  top: 11px;
+  font-size: 20px;
+  left: 7px;
+  color: #a49999;
+}
+.uper-right .uper-right-head .mag-icon i {
+  padding: 5px;
+}
+
+.uper-right .uper-right-img {
+  display: flex;
+  flex-direction: row;
+}
+.uper-right .uper-right-img .uper-right-img1 img {
+  padding: 16px;
+}
+.uper-right .uper-right-img .uper-right-img2 img {
+  padding: 16px;
+  margin-right: 30px;
+}
+.uper-right .uper-right-img .uper-right-img3 img {
+  width: 100%;
+  height: 49px;
+}
+
+/* ************************CONTAINER******************* */
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-container .left-bottom {
+  background-color: #ffffff;
+  width: 75px;
+  height: 930px;
+}
+.main-container .left-bottom .fa-house {
+  color: #38a8af;
+  border: 1px solid transparent;
+  padding: 10px 10px;
+}
+.main-container .left-bottom .fa-house:hover {
+  border: 1px solid transparent;
+  background-color: #38a8af;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+}
+.main-container .left-bottom .fa-clock {
+  color: #2942aa;
+  border: 1px solid transparent;
+  padding: 10px 10px;
+}
+.main-container .left-bottom .fa-clock:hover {
+  border: 1px solid transparent;
+  background-color: #2942aa;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+}
+.main-container .left-bottom .fa-note-sticky {
+  color: #303da7;
+  border: 1px solid transparent;
+  padding: 10px 10px;
+}
+.main-container .left-bottom .fa-note-sticky:hover {
+  border: 1px solid transparent;
+  background-color: #2942aa;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+}
+.main-container .left-bottom .fa-envelope {
+  color: #303da7;
+  border: 1px solid transparent;
+  padding: 10px 10px;
+}
+.main-container .left-bottom .fa-envelope:hover {
+  border: 1px solid transparent;
+  background-color: #2942aa;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+}
+.main-container .left-bottom .fa-file-export {
+  color: #303da7;
+  border: 1px solid transparent;
+  padding: 10px 10px;
+}
+.main-container .left-bottom .fa-file-export:hover {
+  border: 1px solid transparent;
+  background-color: #2942aa;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
+}
+.main-container .left-bottom ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  row-gap: 25px;
+}
+.main-container .left-bottom ul li {
+  list-style-type: none;
+}
+.main-container .left-bottom ul li a {
+  text-decoration: none;
+}
+.section-2 {
+  margin-left: 20px;
+}
+/* **************************************************
+                "ATTENDENCE"
+************************************************** */
+
+.attendence-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+  padding-top: 90px;
+}
+.attendence-main .attendence-left h1 {
+  color: #4f4747;
+  font-size: 28px;
+  font-weight: bold;
+  /* line-height: 33px; */
+}
+.attendence-main .attendence-left span {
+  font-size: 12px;
+  color: #050505;
+  font-weight: normal;
+  margin-left: 50px;
+}
+
+/* *************ATTENDENCE-RIGHT*********** */
+.attendence-main .attendence-right {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.attendence-main .attendence-right .attendence-year .input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #f1f4f9;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.custom-select {
+  border-radius: 40px !important;
+  font-size: 12px;
+  color: #000000;
+  padding: 5px 14px;
+}
+.attendence-main .attendence-right .attendence-month .input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #f1f4f9;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.attendence-main .attendence-right .attendence-month .custom-select {
+  border-radius: 40px !important;
+  font-size: 12px;
+  color: #000000;
+  padding: 5px 14px;
+}
+
+/* **************************************************
+                "SWIPPER"
+************************************************** */
+
+.swp-1 {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.swp1-button {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 18px;
+}
+.sw1-b1 {
+  margin-top: 18px;
+}
+.sw1-b1 button {
+  background-color: #ffffff;
+  color: #38a8af;
+  padding: 4px 24px;
+  border: 1px solid #38a8af;
+  border-radius: 40px;
+  margin-bottom: 15px;
+}
+.sw1-b1 button:hover {
+  background-color: #38a8af;
+  color: #ffffff;
+  padding: 4px 24px;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.swp1-image-text img {
+  margin-left: 10px;
+}
+.swp1-image-text .sp1-name {
+  font-size: 12px;
+  color: #050505;
+  text-align: center;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 5px;
+}
+.swp1-image-text .sp1-dezignation {
+  font-size: 12px;
+  font-weight: 300;
+  color: #4f4747;
+  text-align: center;
+}
+.swp1-button-text .text {
+  font-size: 12px;
+  line-height: 35px;
+  color: #000000;
+}
+.swp1-button .swp1-button-text .butn {
+  background-color: #f1f4f9;
+  border: 1px solid transparent;
+  padding: 8px 5px;
+  border-radius: 43px;
+  font-size: 12px;
+}
+.swp1-button .swp1-button-text .butn-change {
+  background-color: #3adde7;
+}
+.swp1-3 {
+  background-color: #4a5be6;
+}
+
+/* **************************************************
+                "Attendent list"
+************************************************** */
+
+.attendent-list-main {
+  border: 1px solid #a49999;
+  margin-top: 35px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 1px -4px 20px -7px;
+}
+.attendent-main-head h1 {
+  padding-top: 36px;
+  color: #000000;
+  font-size: 34px;
+  font-weight: bold;
+  padding-left: 7px;
+}
+.attend-list-p1 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 15px;
+  column-gap: 76px;
+  padding-top: 20px;
+}
+.attend-list-p1 .al-1 p {
+  font-size: 19px;
+}
+.attend-list-p1 .al-2 p {
+  font-size: 19px;
+}
+.attend-list-p1 .al-3 p {
+  font-size: 19px;
+}
+.attend-list-p1 .al-4 p {
+  font-size: 19px;
+}
+.attend-list-p1 .al-5 p {
+  font-size: 19px;
+}
+.attend-list-p1 .al-6 p {
+  font-size: 19px;
+}
+.attend-list-p1 .al-7 p {
+  font-size: 19px;
+}
+
+/* *******************ATEND-2 */
+.attend-2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 15px;
+  column-gap: 86px;
+  padding-top: 0px;
+}
+.at2-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.at2-7 button {
+  padding: 5px 13px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #38a8af;
+  border: 1px solid #38a8af;
+  font-size: 13px;
+}
+.at2-7 button:hover {
+  padding: 5px 13px;
+  border-radius: 40px;
+  background-color: #38a8af;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 13px;
+}
+.at2-1 p {
+  padding-top: 10px;
+}
+
+/* **************************************************
+                "Table"
+************************************************** */
+
+.attendence-table {
+  border: 1px solid #a49999;
+  margin-top: 20px;
+  height: 466px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 1px -4px 20px -7px;
+}
+.attendence-table .attendent-main-head h1 {
+  margin-bottom: 20px;
+}
+#table-para {
+  color: #000000;
+  font-size: 18px;
+}
+.table-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: space-between;
+}
+.left-car i {
+  padding: 5px;
+  border: 1px solid #38a8af;
+  color: #38a8af;
+  font-size: 14px;
+}
+.left-car i:hover {
+  padding: 5px;
+  border: 1px solid #38a8af;
+  background-color: #38a8af;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.right-car i {
+  padding: 5px;
+  border: 1px solid #38a8af;
+  color: #38a8af;
+  font-size: 14px;
+}
+.right-car i:hover {
+  padding: 5px;
+  border: 1px solid #38a8af;
+  background-color: #38a8af;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.ic-num1 {
+  padding: 2px 5px;
+  border: 1px solid #38a8af;
+  color: #38a8af;
+  font-size: 14px;
+}
+.ic-num1:hover {
+  padding: 2px 5px;
+  border: 1px solid #38a8af;
+  background-color: #38a8af;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
